@@ -1,13 +1,11 @@
 require("express")().listen(3000);
 
 const token = "";//self bot tokeni
-const oyunkanalı = "760806498611101699";//oyun kanalı id
+const oyunkanalı = "";//oyun kanalı id
 
-
-//const Discord = require("discord.js-selfbot");
-const Discord = require("discord.js")
+const Discord = require("discord.js-selfbot");
 const client = new Discord.Client();
-client.login("NzAwMzU2MTYwMzA1MjM0MDQw.XphvgA.2LYIuBOuSRZ_dyKNdchc6l3oGmk");
+client.login(token);
 
 var nf = ["!",".","-","ğ"]
 
